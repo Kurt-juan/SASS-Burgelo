@@ -1,0 +1,16 @@
+@mixin mediaquery($width:500px){
+    @media screen and (min-width:$width){
+        @content;
+        
+    }
+}
+
+
+
+
+@mixin flexbetween(){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

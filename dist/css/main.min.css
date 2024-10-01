@@ -1,0 +1,119 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: Oswald, sans-serif;
+  line-height: 1.5;
+  color: #2b2b2b;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.header {
+  background: #ffffff;
+}
+.header .branding {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .branding h4.details {
+  display: none;
+}
+.header .branding h4.details i {
+  color: #ffc139;
+  font-size: 2.5rem;
+}
+.header .branding .toggle_menu {
+  background: #ffc139;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.header .branding .toggle_menu span {
+  width: 2.5rem;
+  height: 0.3rem;
+  background-color: #ffffff;
+  display: block;
+  border-radius: 5rem;
+}
+.header .branding .toggle_menu span:nth-child(2) {
+  margin: 0.5rem 0;
+}
+.header_details h4 {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.header_details h4 i {
+  color: #ffc139;
+  font-size: 2.5rem;
+}
+.header_actions {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+.header_actions ul.header_nav {
+  display: none;
+}
+.header_actions ul.header_social {
+  display: flex;
+  gap: 2rem;
+}
+.header_actions ul.header_extra {
+  display: flex;
+  gap: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .header_details {
+    display: none;
+  }
+  .header .branding h4.details {
+    display: flex;
+    gap: 2rem;
+  }
+  .header .branding .toggle_menu {
+    display: none;
+  }
+  .header_actions {
+    display: grid;
+    grid-template-columns: 3fr 0.8fr 0.8fr;
+    justify-items: flex-end;
+    margin-top: 5rem;
+  }
+  .header_actions ul.header_nav {
+    display: flex;
+    gap: 2rem;
+  }
+  .header_actions ul.header_social {
+    display: flex;
+    gap: 2rem;
+  }
+  .header_actions ul.header_extra {
+    display: flex;
+    gap: 2rem;
+  }
+}/*# sourceMappingURL=main.min.css.map */
