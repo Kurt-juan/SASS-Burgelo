@@ -1,0 +1,25 @@
+const homeMealNav=document.querySelectorAll(".meal_nav_link");
+const homeMealContent=document.querySelectorAll(".meal_nav_content");
+homeMealNav.forEach((meal) => {
+    meal.addEventListener("click", () =>{
+        removeActiveNav();
+       meal.classList.add("active");
+       const homeMealActiveContent= document.querySelector(`#${meal.id}-content`)
+       removeActiveContent();
+       homeMealActiveContent.classList.add("active")
+
+    })
+})
+
+function removeActiveNav(){
+    homeMealNav.forEach((meal) => {
+       meal.classList.remove("active");
+    })
+
+}
+function removeActiveContent(){
+    homeMealContent.forEach((meal) => {
+       meal.classList.remove("active");
+    })
+
+}
