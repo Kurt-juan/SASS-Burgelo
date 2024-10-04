@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burgelo</title>
     <link rel="stylesheet" href="/dist/css/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <script src="https://kit.fontawesome.com/c41f44f26b.js" crossorigin="anonymous"></script>
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
@@ -182,9 +183,62 @@
     </div>
 </section>
 
+<section class="favorite">
+    <div class="container">
+        <h2>PATRON FAVORITES</h2>
+        <div class="favorite_wrapper">
+            <div class="favorite_item">
+                <img src="/dist/img/Bbq-burger_01-300x300.png" alt="">
+                <div class="favorite_item_text">
+                    <h4>Bbq Burger</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum neque itaque, ratione dicta illo quas architecto maiores ipsam ea tempore?</p>
+                </div>
+            </div>
+            <div class="favorite_item">
+                <img src="/dist/img/cheeseburger_01-300x300.png" alt="">
+                <div class="favorite_item_text">
+                    <h4>Cheeseburger</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum neque itaque, ratione dicta illo quas architecto maiores ipsam ea tempore?</p>
+                </div>
+            </div>
+            <div class="favorite_item">
+                <img src="/dist/img/soup1_01-300x300.webp" alt="">
+                <div class="favorite_item_text">
+                    <h4>Soup Mix</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum neque itaque, ratione dicta illo quas architecto maiores ipsam ea tempore?</p>
+                </div>
+            </div>
+            <div class="favorite_item">
+                <img src="/dist/img/pasta2_01-300x300.webp" alt="">
+                <div class="favorite_item_text">
+                    <h4>Pasta Neo</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum neque itaque, ratione dicta illo quas architecto maiores ipsam ea tempore?</p>
+                </div>
+            </div>
+            <div class="favorite_item">
+                <img src="/dist/img/pizza4_01-300x300.webp" alt="">
+                <div class="favorite_item_text">
+                    <h4>Pizza Margo</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum neque itaque, ratione dicta illo quas architecto maiores ipsam ea tempore?</p>
+                </div>
+            </div>
+            <div class="favorite_item">
+                <img src="/dist/img/sushi1_01-300x300.webp" alt="">
+                <div class="favorite_item_text">
+                    <h4>Sushi Oma</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum neque itaque, ratione dicta illo quas architecto maiores ipsam ea tempore?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 <section class="meal">
     <div class="container">
         <div class="meal_wrapper">
+            
             <div class="meal_nav">
                <ul>
                 <li id="meal-1" class="meal_nav_link active">
@@ -217,76 +271,220 @@
             <div class="meal_content">
                 <div id="meal-1-content" class="meal_nav_content active">
                     <div class="meal_nav_content_item">
-                        <img src="" alt="">
+                        <img src="/dist/img/The-Texas-Squealer-Burger_01-300x300.png" alt="">
                         <div class="meal_nav_content_item_text">
-                            <h4>1</h4>
-                            <h3></h3>
-                            <p></p>
-                            <a href=""></a>
+                            <h4>Burger Retro</h4>  
+                            <h3>$4.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
                         </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/burger-Retro_03-300x300.png" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Burger Vegetables</h4>  
+                            <h3>$4.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/burger-Retro_01-300x300.png" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Burger Cheeseburger</h4>  
+                            <h3>$4.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/burger-Retro_03-300x300.png" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Turkey Burger</h4>  
+                            <h3>$4.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/Bbq-burger_01-300x300.png" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Bbq Burger</h4>  
+                            <h3>$4.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/Bbq-burger_01-300x300.png" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Bbq Burger</h4>  
+                            <h3>$4.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
                     </div>
                 </div>
                 <div id="meal-2-content" class="meal_nav_content">
                     <div class="meal_nav_content_item">
-                        <img src="" alt="">
+                        <img src="/dist/img/pizza4_01-300x300.webp" alt="">
                         <div class="meal_nav_content_item_text">
-                            <h4>2</h4>
-                            <h3></h3>
-                            <p></p>
-                            <a href=""></a>
+                            <h4>Pizza Margo</h4>  
+                            <h3>$9.00 - $14</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
                         </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/pizza3_02-300x300.webp" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Pizza Niopale</h4>  
+                            <h3>$8.00 - $11</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
                     </div>
                 </div>
                 <div id="meal-3-content" class="meal_nav_content">
                     <div class="meal_nav_content_item">
-                        <img src="" alt="">
+                        <img src="/dist/img/Orange-juice-300x300.webp" alt="">
                         <div class="meal_nav_content_item_text">
-                            <h4>3</h4>
-                            <h3></h3>
-                            <p></p>
-                            <a href=""></a>
+                            <h4>Orange Juice</h4>  
+                            <h3>$1.88</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
                         </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/cola_01-300x300.webp" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Cola</h4>  
+                            <h3>$1.33</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/banana-juice_01-300x300.webp" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Banana Juice</h4>  
+                            <h3>$1.50</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
                     </div>
                 </div>
                 <div id="meal-4-content" class="meal_nav_content">
                     <div class="meal_nav_content_item">
-                        <img src="" alt="">
+                        <img src="/dist/img/pasta2_01-300x300.webp" alt="">
                         <div class="meal_nav_content_item_text">
-                            <h4>4</h4>
-                            <h3></h3>
-                            <p></p>
-                            <a href=""></a>
+                            <h4>Pasta Neo</h4>  
+                            <h3>$15.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
                         </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/pasta4_01-300x300.png" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Pasta Italy</h4>  
+                            <h3>$12.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
                     </div>
                 </div>
                 <div id="meal-5-content" class="meal_nav_content">
                     <div class="meal_nav_content_item">
-                        <img src="" alt="">
+                        <img src="/dist/img/soup1_01-300x300.webp" alt="">
                         <div class="meal_nav_content_item_text">
-                            <h4>5</h4>
-                            <h3></h3>
-                            <p></p>
-                            <a href=""></a>
+                            <h4>Soup Mix </h4>  
+                            <h3>$8.00 -$15.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
                         </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/soup2_01-300x300.webp" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Soup Pumpkin</h4>  
+                            <h3>$6.99</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/soup3_01-300x300.webp" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Soup Chili</h4>  
+                            <h3>$5.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/soup4_01-300x300.webp" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Soup Tomato</h4>  
+                            <h3>$8.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
                     </div>
                 </div>
                 <div id="meal-6-content" class="meal_nav_content">
                     <div class="meal_nav_content_item">
-                        <img src="" alt="">
+                        <img src="/dist/img/sushi1_01-300x300.webp" alt="">
                         <div class="meal_nav_content_item_text">
-                            <h4>6</h4>
-                            <h3></h3>
-                            <p></p>
-                            <a href=""></a>
+                            <h4>Sushi Oma</h4>  
+                            <h3>$9.00</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
                         </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/sushi2_01-300x300.webp" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Sushi Kola</h4>  
+                            <h3>$9.88</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
+                    </div>
+                    <div class="meal_nav_content_item">
+                        <img src="/dist/img/sushi4_01-300x300.webp" alt="">
+                        <div class="meal_nav_content_item_text">
+                            <h4>Sushi Otaca</h4>  
+                            <h3>$6.99</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="btn bg-primary"><i class="fa-solid fa-cart-shopping"></i><span>ADD TO CART</span></a>
+                        </div>
+                        <span class="hide"></span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-
 
 <section class="order">
     <div class="container">
@@ -423,5 +621,23 @@
 
 <script src="/js/toggleMenu.js"></script>
 <script src="/js/homeTabs.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script type="module">
+    // import {tns} from './src/tiny-slider.js';
+  
+    var slider = tns({
+      container: '.favorite_wrapper',
+      items: 1,
+      slideBy: 'page',
+      autoplay: false,
+      controlsText:['<i class="fa-solid fa-chevron-left"></i>','<i class="fa-solid fa-chevron-right"></i>'],
+      responsive:{
+        1024:{
+            items:3
+            
+        }
+      }
+    });
+    </script>
 </body>
 </html>
