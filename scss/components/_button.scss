@@ -8,11 +8,18 @@
     text-align: center;
     font-family: Candara;
     border-radius: 5rem;
+    border: 1px solid transparent;
     &:hover{
         scale: 1.1;
         transition: .5s ease;
     }
     &.bg-primary{
         background: $clr-primary;  
+    }
+    &.bg-transparent{
+        background: transparent;
+        border: 1px solid $clr-dark;
+        color: $clr-dark;
+
     }
 }

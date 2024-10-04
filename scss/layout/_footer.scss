@@ -1,0 +1,82 @@
+@use "../abstract/" as *;
+@use "../base/" as *;
+
+.footer{
+    &_wrapper{
+        padding: 2.5rem 0;
+        
+        border-top: 1px solid $clr-gray;
+        @include gridEven(1, 5rem);
+    }
+    img{
+        width: fit-content;
+        margin: 0 auto;
+    }
+    &_nav{
+        @include gridEven(1,2rem);
+        &_item{
+           
+            padding: 0 2rem;
+     
+        h4{
+            @include flexbetween;
+            i{
+                transition: .5s ease;
+                &.open{
+                    transform: rotate(180deg);
+                    transition: .5 ease;
+                }
+            }
+        }
+        ul{
+            margin-left: 2rem;
+            max-height: 0rem;
+            overflow: hidden;
+            transition: .5s ease;
+            li{
+                margin-top: 2rem;
+                a{
+                    color: gray;
+                }
+            }
+            &.open{
+                max-height: 50rem;
+                transition: .5s ease;
+            }
+        }
+    }
+}
+&_btn{
+    @include centerALL;
+    gap:2rem;
+    a{
+        width: 20rem;
+    }
+}
+
+@include mediaquery($break-lg){
+        &_wrapper{
+            @include gridEven(3, 5rem);
+            align-items: center;
+            padding-top: 5rem;
+        }
+        &_nav{
+            @include gridEven(3, 0rem);
+            &_item{
+                h4{
+                    i{
+                        display: none;
+                    }
+                }
+                ul{
+                    max-height: 50rem;
+                    margin-left: 0rem;
+                }
+            }
+        }
+        &_btn{
+            display: flex;
+            flex-direction: column;
+        }
+}
+}
